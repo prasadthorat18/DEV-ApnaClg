@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap CSS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style(7).css">
+</head>
+<body>
+
+    <!-- 8. Navbar -->
+
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #e3f2fd;" data-bs-theme="light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">BKT PRIVATE LTD</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Her</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Him</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Both</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                love
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">each</a></li>
+                <li><a class="dropdown-item" href="#">Other</a></li>
+                <li><a class="dropdown-item" href="#">Forever</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <form action="xyz" class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" />
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </nav>
+
+    <!-- 9. cards -->
+
+    <div class="card text-bg-light mb-3" style="width: 18rem; box-shadow: 2px 2px 8px black;">
+        <img src="IMG_5629.jpg"  class="card-img-top" alt="">
+        <div class="card-body">
+            <h5 class="card-title">PRASAD THORAT</h5>
+            <p class="card-text">Hated By MANY <br> Defated By NONE</p>
+            <a href="#" class="btn btn-primary">That't It!</a>
+        </div>
+    </div>
+    <br>
+    <div class="card text-bg-light mb-3" style="width: 18rem; box-shadow: 2px 2px 8px black;">
+        <img src="bkt.jpeg"  class="card-img-top" alt="">
+        <div class="card-body">
+            <h5 class="card-title">BHAKTI KULKARNI</h5>
+            <p class="card-text">So Good at Everything <br> Ranisheb
+            </p>
+            <a href="#" class="btn btn-primary">More to write..</a>
+        </div>
+    </div>
+    <!-- 3. container -->
+     <div class="container">
+        <h2>Bootstrap Demo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, sapiente eveniet voluptates iste at perspiciatis reprehenderit ab possimus, voluptatem pariatur tempora fuga inventore itaque aut facere nostrum ut! Id, sequi!
+        Dicta ipsam aut nam dolor hic mollitia sunt, nisi exercitationem reprehenderit, autem nihil non eveniet temporibus vitae. Laudantium voluptates ex in inventore rerum quaerat possimus aut minus quisquam labore. Omnis.
+        Eum mollitia non laborum accusantium modi omnis animi numquam saepe expedita optio, sit et eos cupiditate a odit iure repellat necessitatibus soluta quaerat. Cupiditate, porro hic sit dolore distinctio fugit.
+        Distinctio quidem omnis vitae a necessitatibus porro commodi corrupti aperiam incidunt possimus, animi veniam blanditiis voluptate cum mollitia placeat quisquam? Iusto accusamus quis ipsa tempore laboriosam ab qui nulla adipisci.
+        Enim suscipit voluptates cumque reprehenderit quisquam autem nulla numquam, commodi, quod laborum optio, tempore distinctio libero ex temporibus vitae ipsam ducimus sint fuga id nihil dignissimos. Modi non tempore repellat.</p>
+     </div>
+
+     <!-- 4. buttons -->
+    <button class="btn">type 1</button>
+    <button class="btn btn-warning">type 2</button>
+    <button class="btn btn-success">type 3</button>
+    <button class="btn btn-info">type 4</button>
+    <button class="btn btn-outline-secondary">type 5</button>
+    <button class="btn btn-outline-dark">type 6</button>
+    <button class="btn btn-primary" disabled>Button</button>
+
+    <a href="#" class="btn btn-outline-dark">google me!!</a>
+     <br>
+    <!-- 5. Badges -->
+
+    <h4>Notifications <span class="badge bg-secondary">New</span></h4>
+
+    <button class="btn btn-primary">
+        Emails <span class="badge bg-danger">20+</span>
+    </button>
+
+    <button class="btn btn-primary position-relative">
+        Inbox
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            99+
+        <span class="visually-hidden">unread messages</span>
+        </span>
+    </button>
+
+    <!-- 6.Alert -->
+
+    <div class="container">
+        <div class="alert alert-danger">
+            Download Failed. Please Try again!
+        </div>
+
+        <div class="alert alert-success alert-dismissible">
+            <strong>Congratulations!</strong> U scored 100/100 Air 1
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    </div>
+
+    <!-- 7. Button Group -->
+
+    <button class="btn btn-success">one</button>
+    <button class="btn btn-success">two</button>
+    <button class="btn btn-success">three</button> we can do it as 
+
+    <div class="btn-group">
+        <button class="btn btn-outline-success">one</button>
+        <button class="btn btn-outline-success">two</button>
+        <button class="btn btn-outline-success">three</button>
+    </div>
+    <br><br>
+
+    <!-- 8. Grid -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col bg-success">one</div>
+            <div class="col bg-danger">two</div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-lg-2 bg-success">one</div>
+            <div class="col-lg-4 bg-warning">two</div>
+            <div class="col-lg-6 bg-dark">three</div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 bg-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, itaque? Voluptatum voluptatem doloribus possimus blanditiis, cupiditate recusandae hic reprehenderit ratione consequatur non esse rerum eos eius, autem vitae? Amet quae, iusto facilis, consequatur rerum iste excepturi incidunt, dolor in suscipit exercitationem id rem veritatis distinctio deleniti dolorem? Inventore, nobis eaque.</div>
+            <div class="col-lg-4 col-md-6 bg-success">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti laboriosam impedit at obcaecati rem. Amet exercitationem dignissimos ipsa mollitia, earum corrupti excepturi sapiente facilis nihil ab perspiciatis recusandae ut! Quaerat, nobis nihil nesciunt nam iure mollitia numquam repellendus non tempore maiores tempora exercitationem dolore autem nemo magni voluptatem, velit re.</div>
+            <div class="col-lg-4 col-md-6 bg-success">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti laboriosam impedit at obcaecati rem. Amet exercitationem dignissimos ipsa mollitia, earum corrupti excepturi sapiente facilis nihil ab perspiciatis recusandae ut! Quaerat, nobis nihil nesciunt nam iure mollitia numquam repellendus non tempore maiores tempora exercitationem dolore autem nemo magni voluptatem, velit rerum saepe</div>           
+            <div class="col-lg-4 col-md-6 bg-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus suscipit atque voluptate velit! Magnam necessitatibus ducimus fugit inventore alias non dolore, hic nesciunt molestiae sed iste reprehenderit ut facere expedita modi minus odio esse suscipit, eligendi obcaecati sit reiciendis. Aspernatur ipsa eveniet laborum tempore. Porro dolorum molestiae et a temporibus?</div>
+        </div>
+        <br><br>
+        <div class="row align-items-start">
+            <div class="col bg-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, itaque? Voluptatum voluptatem doloribus possimus blanditiis, cupiditate recusandae hic reprehenderit ratione consequatur non esse rerum eos eius, autem vitae? Amet quae, iusto facilis, consequatur rerum iste excepturi incidunt, dolor in suscipit exercitationem id rem veritatis distinctio deleniti dolorem? Inventore, nobis eaque.</div>
+            <div class="col bg-success">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti laboriosam impedit at obcaecati rem. Amet exercitationem dignissimos ipsa mollitia, earum corrupti excepturi sapiente facilis nihil ab perspiciatis recusandae ut! Quaerat, nobis nihil nesciunt nam iure mollitia numquam repellendus non tempore maiores tempora exercitationem dolore autem nemo magni voluptatem, velit rerum saepe hic aliquid laboriosam eaque in ratione totam. Rem minima ipsum delectus a qui! Nihil reprehenderit non ipsam vel nesciunt dolore placeat, quo molestias eaque eius molestiae exercitationem repellat doloribus delectus sed impedit. Debitis recusandae nam dolor corrupti possimus aliquam perspiciatis? Libero quod nam cumque assumenda voluptatem quis vero soluta.Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sit aspernatur atque. Mollitia est eligendi itaque cum delectus inventore porro, praesentium omnis eum nesciunt eos asperiores dolore vel ea molestias sint. Ut deleniti error pariatur corrupti voluptates repellat, nam facilis quibusdam harum, sunt quaerat sequi alias debitis deserunt dicta ducimus.</div>
+            <div class="col bg-success">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti laboriosam impedit at obcaecati rem. Amet exercitationem dignissimos ipsa mollitia, earum corrupti excepturi sapiente facilis nihil ab perspiciatis recusandae ut! Quaerat, nobis nihil nesciunt nam iure mollitia numquam repellendus non tempore maiores tempora exercitationem dolore autem nemo magni voluptatem, velit rerum saepe hic aliquid laboriosam eaque in ratione totam. Rem minima ipsum delectus a qui! Nihil reprehenderit non ipsam vel nesciunt dolore placeat, quo molestias eaque eius molestiae exercitationem repellat doloribus delectus sed impedit. Debitis recusandae nam dolor corrupti possimus aliquam perspiciatis? Libero quod nam cumque assumenda voluptatem quis vero soluta.Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sit aspernatur atque. Mollitia est eligendi itaque cum delectus inventore porro, praesentium omnis eum nesciunt eos asperiores dolore vel ea molestias sint. Ut deleniti error pariatur corrupti voluptates repellat, nam facilis quibusdam harum, sunt quaerat sequi alias debitis deserunt dicta ducimus.</div>           
+            <div class="col align-self-end bg-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus suscipit atque voluptate velit! Magnam necessitatibus ducimus fugit inventore alias non dolore, hic nesciunt molestiae sed iste reprehenderit ut facere expedita modi minus odio esse suscipit, eligendi obcaecati sit reiciendis. Aspernatur ipsa eveniet laborum tempore. Porro dolorum molestiae et a temporibus?</div>
+        </div>
+    </div>
+
+    <!-- 12. Forms -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="text" placeholder="example@gmail.com" id="email" class="form-control">
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="pass" class="form-label">Password</label>
+          <input type="password" placeholder="Password" id="pass" class="form-control">
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="text" placeholder="example@gmail.com" id="email" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label for="pass" class="form-label">Password</label>
+        <input type="password" placeholder="Password" id="pass" class="form-control">
+      </div>
+
+      <!-- Select box -->
+      <form action=".php">
+        <select name="city" id="city" class="form-select">
+          <option selected>Select your fucking City</option>
+          <option value="1">Mumbai</option>
+          <option value="2">Pune</option>
+          <option value="3">Delhi</option>
+        </select>
+      </form>
+
+      <!-- checkbox and radio -->
+
+      <form action=".exee">
+        <input type="checkbox" id="age" class="form-check-input">
+        <label for="age" class="form-check-label">18+</label>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+          <label class="form-check-label" for="radioDefault1">
+            good
+          </label>
+        </div>
+      </form>
+    </div>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+.card{
+  width: 430px;
+  border: 2px solid black;
+  border-radius: 20px;
+
+  padding: 10px;
+  margin: 100px;
+
+
+}
+
+img{
+  width: 100%;
+  border-radius: 20px;
+  
+}
+
+span{
+  color: brown;
+}
+
+i{
+  color: chocolate;
+}
+h4{
+  text-align: right;
+  color: crimson;
+}
+#pets{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 400px){
+  #pets{
+    flex-wrap: wrap;
+  }
+}
+

@@ -1,0 +1,34 @@
+#a{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+
+div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;    
+}
+
+.x{
+    border-radius: 50px;
+    background-color: red;
+}
+
+.y{
+    border-radius: 50px;
+    background-color: yellow;
+}
+
+.z{
+    border-radius: 50px;
+    background-color: green ;
+}
+
+h2{
+    display: inline;
+}
+span{
+    display: block;
+}

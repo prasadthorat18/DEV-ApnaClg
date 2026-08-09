@@ -1,0 +1,88 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+
+
+    /* animation-name: fontanimate;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+    /* shorthand for animation */
+    /* animation: widthanimate 4s ease-in 1s 3 normal ;
+
+    animation: coloranimate 10s ease-in 0s infinite normal; */
+}
+
+/* template is neccesary to add in animation as a name */
+
+@keyframes widthanimate{
+    from{
+        width: 20px;
+    }
+    to{
+        width: 800px;
+    }
+}
+
+@keyframes fontanimate{
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 50px;
+        font-family: cursive;
+    }
+}
+
+/* 11. Pecenatage % in animation */
+@keyframes coloranimate {
+    10%{
+        background-color: yellowgreen;
+    }
+    25%{
+        background-color: violet;
+    }
+    50%{
+        background-color: aqua;
+
+    }
+    80%{
+        background-color: tan;
+    }
+    100%{
+        background-color: dimgray;
+    }
+}
+/* 12. media quries */
+@media (min-width: 400px) {
+    div{
+        background-color: brown;
+    }
+}
+@media (max-width: 500px) {
+    h1{
+        color: crimson;
+        font-family: fantasy;
+        letter-spacing: 2px;
+    }
+}
+@media (min-width: 350px) and (max-width: 475px) {
+    div{
+        background-color: darkgrey;
+    }
+    
+}
+/* 13. media Quries (Orientation) */
+@media (orientation: landscape){
+    h1{
+        color: cornflowerblue;
+        font-size: 10px;
+    }
+    div{
+        background-color: black;
+    }
+}

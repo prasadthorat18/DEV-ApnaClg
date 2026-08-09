@@ -1,0 +1,74 @@
+h1{
+    color: #ffa511;
+    text-align: center;
+    text-decoration: teal double underline;
+    font-family: league spartan;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+button{
+    color: white;
+    background-color: blue;
+}
+
+p{
+    color: white;
+    background-color: black;
+    text-align: start;
+    font-weight: 600;
+    text-decoration:pink line-through;
+}
+
+input{
+    color: rgb(155, 225, 33);
+}
+
+h3{
+    color: rgb(232, 158, 21);
+    color: #E89E15;
+    text-decoration: overline;
+}
+
+h4{
+    color: rgb(51, 201, 201);
+    color: #33c9c9;
+}
+h5{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: wavy red underline;
+
+}
+h2{
+    text-align: center;
+    text-align: start;
+    text-align: end;
+    text-align: justify;
+
+    font-weight: normal;
+    font-weight: lighter;
+    font-weight: bold;
+    font-weight: bolder;
+    font-weight: 100;
+
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: dotted;
+    text-decoration: wavy red underline;
+
+    line-height: normal;
+    line-height: 2.3;
+    line-height: 0.5;
+
+    letter-spacing: normal;
+    letter-spacing: 5px;
+    letter-spacing: 50px;
+
+    font-size: 20px;
+
+}

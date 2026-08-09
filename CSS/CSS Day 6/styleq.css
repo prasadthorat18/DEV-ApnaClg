@@ -1,0 +1,125 @@
+ /* 3. Universal selector */
+
+ *{
+    font-family:'Courier New';
+
+ }
+/* 4. Element selector */
+h1,h3{
+    color: #b92b27;
+}
+li{
+    color: blue;
+}
+
+/* 5. ID selector */
+
+#login{
+    background-color: aquamarine;
+
+}
+#signup{
+    background-color: #b92b27;
+}
+
+/* 6. Class selector */
+
+.laduu{
+    color:white;
+    background-color: rgb(59, 99, 230);
+}
+
+/* 7. practice ques */
+#myid p{
+    color:green;
+}
+
+/* 8. descendant selector */
+
+.post a{
+    color: chocolate;
+    background-color: beige;
+}
+
+nav ul li a{
+    color: hotpink;
+}
+
+/* 9. Sibling Combinator */
+
+p+h3{
+    text-decoration: underline;
+}
+
+.laduu + button{
+    color: coral;
+    background-color: rgb(213, 197, 197);
+}
+
+/* 10. child combinator */
+div > input{
+    background-color: lightblue;
+}
+
+/* 11. attribute selector */
+
+input[type="text"]{
+    color:indigo;
+}
+
+input[type="password"]{
+    color:lawngreen ;
+}
+
+/* 13. Pseudo class */
+ /* :hover  */
+ button:hover{
+    background-color: black;
+ }
+ h3:hover{
+    text-decoration: line-through;
+ }
+
+ /* :active */
+
+ button:active{
+    background-color: hotpink;
+ }
+
+ p:active{
+    font-weight: bold;
+    color:green;
+ }
+
+ /* checked */
+
+ input[type="radio"]:checked + label{
+    font-weight: bold;
+    color: red;
+ }
+
+ /* nth of type */
+
+ .post:nth-of-type(1) {
+    background-color: rgb(180, 117, 228);
+ }
+
+ div:nth-of-type(2n){
+    background-color: blanchedalmond;
+ }
+
+/* 14. Pseudo element */
+/* ::first-letter */
+
+h1::first-letter{
+    color: black;
+}
+
+p::first-line{
+    color: blue;
+}
+
+p::selection{
+    color:rgb(247, 247, 155)
+}
+

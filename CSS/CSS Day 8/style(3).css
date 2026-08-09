@@ -1,0 +1,114 @@
+/* div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: rgba(255, 0, 0, 1); /*1.Alpha and Opacity*/
+    /* margin-top: 10px; */
+    /* margin: 0 auto; */
+    /* transition: 1.5s margin-top ease-in 0.2s; 2. CSS Transition */
+    
+/* } */ 
+/* 
+div:hover{
+    background-color: green;
+    margin-top: 400px;
+} */
+
+/* section{
+    margin: 100px;
+}
+
+div{
+    height: 50px;
+    width: 200px;
+    background-color: darkcyan;
+    border: 2px solid black;
+    margin: 25px auto;
+    text-align: center;
+}
+
+div:nth-of-type(2n){
+    background-color: burlywood;
+}
+
+div:nth-of-type(3n){
+    background-color: coral;
+}
+
+/* Transition */
+/* 1. transform-rotate */
+
+/* #one{
+    transform: rotate(45deg);
+}
+
+#two{
+    transform: scale(0.5);
+    /* transform: scale(2, 0.5);
+    transform: scaleX(1.5); */
+/* }  */
+/* #three{
+    /* transform: translate(100px, 100px); */
+    /* transform: translate(-100px); */
+    /* transform: translatex(50px);
+    transform: translateY(50px); */
+/* }  */
+/* #four{
+    transform: skew(30deg);
+    /* transform: skewX(25deg);
+    transform: skewY(30deg); */
+/* }  */
+
+/* #five{
+    transform: rotate(25deg);
+    /* transform: scale(1.5);
+    transform: translate(110px, 100px); */
+/* }   */
+
+/* div{
+    height: 700px;
+    width: 700px;
+    background-color: greenyellow;
+    box-shadow: 2px 2px 8px black; /* Box shadow */
+    /* margin: 10px auto; */
+    /* background-image: url(IMG_5629.jpg); background image */
+    /* background-size: cover;  background image */
+
+/* } */
+
+div{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: green;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+#static{
+    background-color: yellow;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+
+#relative{
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#absolute{
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+#fixed{
+    background-color: yellow;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
