@@ -1,0 +1,18 @@
+{
+  "name": "day-30",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Prasad",
+  "type": "module",
+  "main": "Math.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "figlet": "^1.12.0"
+  },
+  "devDependencies": {}
+  
+
+}
